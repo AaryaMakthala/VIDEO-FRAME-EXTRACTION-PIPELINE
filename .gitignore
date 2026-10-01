@@ -1,0 +1,36 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.ipynb
+
+# Secrets
+.env
+.env.*
+
+# Generated output (frames and the processing log, which contains video URLs)
+output/
+outputs/
+frames/
+processing_log.csv
+*.log
+
+# Input data and downloaded media
+data/
+videos/
+downloads/
+*.csv
+*.xlsx
+*.xls
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Temporary / OS files
+*.tmp
+.DS_Store
+Thumbs.db
